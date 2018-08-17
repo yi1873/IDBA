@@ -4,7 +4,7 @@ Dockerfile
 
 Usage:
 
-docker run --rm -v /path:/path idba_ud:v1.0.0 \\
+docker run --rm -v /path:/path idba_ud:v1.0.0 \
        /bin/bash /idba/idba_ud.assembly.sh -s prefix \
        -x /path/test.pair.1.fq.gz \
        -p /path/test.pair.2.fq.gz \
